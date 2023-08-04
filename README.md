@@ -31,4 +31,4 @@ This is a simple HTML and CSS code for an event card UI design. The code showcas
 ## Writer
 
 [Ebulfez-GitHub](https://github.com/ebulfez21/Event-Card-UI-Design)
-[Ebulfez-Netlify](https://app.netlify.com/sites/ebulfez-event-card-ui-design/configuration/domain)
+[Ebulfez-Netlify](https://ebulfez-event-card-ui-design.netlify.app/)
