@@ -1,0 +1,86 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #434f7a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.background {
+  width: 593px;
+  height: 423px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #333f6b;
+  position: relative;
+  z-index: 0;
+}
+.event-card {
+  width: 523px;
+  height: 353px;
+  border-radius: 20px;
+  background: #fff;
+  position: absolute;
+  padding: 50px 0 50px 50px;
+  display: flex;
+  flex-direction: column;
+}
+.event-title {
+  width: 322px;
+  margin-top: 15px;
+}
+.event-location {
+  display: flex;
+  align-items: center;
+  margin-top: 17px;
+}
+
+.event-title h2 {
+  color: #132152;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 52px;
+  gap: 8px;
+}
+.event-location p {
+  color: #132152;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+.event-icons {
+  display: flex;
+  align-items: center;
+}
+.event-attendees p {
+  color: #434f7a;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.attend-button {
+  width: 124px;
+  height: 51px;
+  border-radius: 5px;
+  background: #132152;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.attend-button a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
